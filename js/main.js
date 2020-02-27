@@ -55,6 +55,16 @@ $(function() {
             onTouch: true
 	}
     });
+    $('#list_product4').carouFredSel({
+        prev: '#prev_c4',
+        next: '#next_c4',
+        scroll: 1,
+        auto: false,
+        swipe: {
+            onMouse: true,
+            onTouch: true
+	}
+    });
     $('#list_banners').carouFredSel({
         prev: '#ban_prev',
         next: '#ban_next',
