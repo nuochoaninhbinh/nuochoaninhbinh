@@ -214,6 +214,13 @@ body{
         padding-right: 1%;
         width: 100%;
      }
+
+     #branding{
+         height: 0px;
+     }
+     .private{
+         display: none;
+     }
 }
 
 .alpha{
@@ -4196,17 +4203,7 @@ list-style: none;
         padding: 0;
     }
     
-    /*** specials ***/
-    .specials li .prev{
-        display: table-cell;
-        vertical-align: middle;
-        //display: block;
-        //height: auto;
-        //margin-top: expression((35-parseInt(offsetHeight)/2)  <0 ? "0" : 35-(parseInt(offsetHeight)/2) +'px') ;
-    }
-    .specials li .cont{
-        display: table-cell;
-    }
+   
     
     /*** banners ***/
     #banners .banner {
