@@ -4177,7 +4177,9 @@ list-style: none;
     body{
         overflow-x: visible;
     }
-    
+    .welcome{
+        width: 50%; 
+    }
     /***********
      * Sidebar *
      ***********/
